@@ -1,0 +1,106 @@
+body {
+    background-color: #fff;
+}
+
+
+.parent {
+    background-color: cadetblue;
+    width: 100%;
+    
+}
+
+.container {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    background-color: cyan;
+    margin: 0 auto;
+}
+
+fieldset {
+    background-color: darkorange;
+    margin: 10px 10px 10px 10px;
+}
+
+li {
+    list-style: none; 
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    
+}
+
+legend {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+label {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.label-top-left {
+    float: left;
+    clear: left;
+    width: 135px;
+    margin: 5px 0;
+}
+
+.input-top-left {
+    width: 135px;
+    margin: 5px 0;
+}
+
+.checkbox {
+    
+}
+
+.checkboxRetail {
+    float: left;
+    clear: left;
+    display: inline-block;
+}
+
+.the4Divs {
+    background-color: darkorange;
+    margin: 15px 15px;
+}
+
+.buttonDiv1 {
+    margin-left: 10px;
+    background-color: chartreuse;
+/*    width: 1000px;*/
+}
+
+.buttonDiv2 {
+/*    float: right; */
+/*    */
+}
+
+.btns {
+    font-size: 15px;
+    width: 100px;
+    border: 1px solid cadetblue;
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.btns:hover {
+    background-color: darkcyan;
+}
+
+#btn-exit {
+    float: right;
+    margin-right: 10px;
+}
+
+
+
+
+

@@ -4,34 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Toyota App</title>
+    <link rel = "stylesheet" href="toyotasam.css">
 </head>
 <body>
+    <div class="parent">
     <div class="container">
-    	<div class="top-left">
+    	<div class="top-left the4Divs">
     		<fieldset>
     			<legend>Customer Information</legend>
+                <ul>
+                    <li><label for="" class="label-top-left">Customer ID:</label></li>
+                    <li><input type="text" class="input-top-left"></li>
+                    
+                    <li><label for="" class="label-top-left">Name:</label></li>
+                    <li><input type="text" class="input-top-left"></li>
+                    
+                    <li><label for="" class="label-top-left">State:</label></li>
+                    <li><input type="text" class="input-top-left"></li>
+                    
+                    <li><input type="checkbox" class="input-top-left checkbox"></li>
+                    <li><label for="" class="label-top-left checkboxRetail">Retail Customer:</label></li>
+                    
+                </ul>
     		</fieldset>
     	</div>
 
-    	<div class="top-right">
+    	<div class="top-right the4Divs">
     		<fieldset>
     			<legend>Shipping</legend>
+                <li><input type="radio" class="input-top-right"></li>
+                <li><label for="" class="label-top-right">UPS</label></li>
+                
+                <li><input type="radio" class="input-top-right"></li>
+                <li><label for="" class="label-top-right">Fed Ex Ground</label></li>
+                
+                <li><input type="radio" class="input-top-right"></li>
+                <li><label for="" class="label-top-right">US Postal air</label></li>
+                
+                <li><input type="radio" class="input-top-right"></li>
+                <li><label for="" class="label-top-right">Fed Ex Air</label></li>
     		</fieldset>
     	</div>
 
-    	<div class="bottom-left">
+    	<div class="bottom-left the4Divs"> 
     		<fieldset>
     			<legend>Part Ordered</legend>
+                <li><label for="" class="label-top-right">Part Number:</label></li>
+                <li><input type="text" class="input-top-right"></li>
+                
+                <li><label for="" class="label-top-right">Description:</label></li>
+                <li><input type="text" class="input-top-right"></li>
+                
+                 <li><label for="" class="label-top-right">Price per part:</label></li>
+                <li><input type="text" class="input-top-right"></li>
+               
+                <li><label for="" class="label-top-right">Fed Ex Air</label></li>
+                <li><input type="text" class="input-top-right"></li>                
     		</fieldset>
     	</div>
 
-    	<div class="bottom-right">
+    	<div class="bottom-right the4Divs">
     		<fieldset>
-    			<legend>Output</legend>
+    			<legend>Output</legend>                
+                <li><label for="" class="label-top-right">Cost:</label></li>
+                <li><input type="text" class="input-top-right"></li>
+                
+                <li><label for="" class="label-top-right">Sales Tax:</label></li>
+                <li><input type="text" class="input-top-right"></li>
+                
+                <li><label for="" class="label-top-right">Shpping & Handling:</label></li>
+                <li><input type="text" class="input-top-right"></li>
+                
+                <li><label for="" class="label-top-right">Total:</label></li>
+                <li><input type="text" class="input-top-right"></li>
     		</fieldset>
     	</div>
-
+        <div class="buttonDiv1">
+            <input type="submit" class="btns" value="Compute">
+            <input type="submit" class="btns" value="New Order">
+        </div>    
+        <div class="buttonDiv2" >
+            <input type="submit" id="btn-exit" class="btns" value="Exit"></div>
+        </div>
+        
     </div>
 </body>
 </html>
