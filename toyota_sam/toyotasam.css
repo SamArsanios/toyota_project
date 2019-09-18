@@ -1,106 +1,149 @@
 body {
-    background-color: #fff;
+  background-color: #fff;
 }
 
-
 .parent {
-    background-color: cadetblue;
-    width: 100%;
-    
+  background-color: beige;
+  width: 100%;
 }
 
 .container {
-    width: 1000px;
-    display: grid;
-    grid-template-columns: 500px 500px;
-    background-color: cyan;
-    margin: 0 auto;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  background-color: olivedrab;
+  margin: 0 auto;
 }
 
 fieldset {
-    background-color: darkorange;
-    margin: 10px 10px 10px 10px;
+  background-color: whitesmoke;
+  margin: 10px 10px 10px 10px;
 }
 
 li {
-    list-style: none; 
+  list-style: none;
+  /*    display: inline-block;*/
 }
 
-ul, li {
-    padding: 0;
-    margin: 0;
-    
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.shippingWays {
+  float: left;
+  clear: left;
+  margin-bottom: 10px;
 }
 
 legend {
-    font-family: Helvetica, sans-serif;
-    font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 label {
-    font-family: Helvetica, sans-serif;
-    font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 .label-top-left {
-    float: left;
-    clear: left;
-    width: 135px;
-    margin: 5px 0;
+  float: left;
+  clear: left;
+  width: 135px;
+  margin: 5px 0;
 }
 
 .input-top-left {
-    width: 135px;
-    margin: 5px 0;
+  width: 135px;
+  margin: 5px 0;
 }
 
-.checkbox {
-    
+/* .checkbox {
+
+} */
+
+/* .checkboxRetail {
+  float: left;
+  clear: left;
+  display: inline-block;
+} */
+
+.label-top-right {
+  /*    float: left;*/
+  clear: left;
+  /*    width: 135px;*/
+  margin: 5px 0;
 }
 
-.checkboxRetail {
-    float: left;
-    clear: left;
-    display: inline-block;
+.input-top-right {
+  /*    width: 135px;*/
+  margin: 5px 0;
 }
 
 .the4Divs {
-    background-color: darkorange;
-    margin: 15px 15px;
+  background-color: beige;
+  margin: 15px 15px;
+}
+
+.label-bottom-left {
+  float: left;
+  clear: left;
+  width: 135px;
+  margin: 5px 0;
+}
+
+.input-bottom-left {
+  /*    width: 135px;*/
+  margin: 5px 0;
+}
+
+.label-bottom-right {
+  float: left;
+  clear: left;
+  width: 165px;
+  margin: 5px 0;
+}
+
+.input-bottom-right {
+  margin: 5px 0;
+}
+
+.theOutputs {
+  width: 100px;
+  background-color: #777;
+  border: 1px solid black;
+  text-align: right;
+  padding-right: 114px;
+  margin: 10px 10px;
 }
 
 .buttonDiv1 {
-    margin-left: 10px;
-    background-color: chartreuse;
-/*    width: 1000px;*/
+  margin-left: 10px;
+  background-color: chartreuse;
+  /*    width: 1000px;*/
 }
 
-.buttonDiv2 {
-/*    float: right; */
-/*    */
-}
+/* .buttonDiv2 {
+     float: right; 
+} */
 
 .btns {
-    font-size: 15px;
-    width: 100px;
-    border: 1px solid cadetblue;
-    background-color: cadetblue;
-    border-radius: 5px;
-    padding: 5px;
-    cursor: pointer;
-    margin: 20px 0;
+  font-size: 15px;
+  width: 100px;
+  border: 1px solid thick;
+  background-color: beige;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 20px 0;
 }
 
 .btns:hover {
-    background-color: darkcyan;
+  background-color: whitesmoke;
 }
 
 #btn-exit {
-    float: right;
-    margin-right: 10px;
+  float: right;
+  margin-right: 10px;
 }
-
-
-
-
-

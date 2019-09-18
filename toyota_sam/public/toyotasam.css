@@ -1,0 +1,195 @@
+body {
+  background-color: #fff;
+}
+
+.parent {
+  background-color: lavender;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#main-title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 5px;
+}
+.container {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  /* grid-template-rows: 2 1fr; */
+  background-color: lavender;
+  margin: 0 auto;
+}
+
+fieldset {
+  background-color: beige;
+  margin: 10px 10px 10px 10px;
+}
+
+li {
+  list-style: none;
+  /*    display: inline-block;*/
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.shippingWays {
+  float: left;
+  clear: left;
+  margin-bottom: 10px;
+}
+
+legend {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+label {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.label-top-left {
+  float: left;
+  clear: left;
+  width: 135px;
+  margin: 5px 0;
+}
+
+.input-top-left {
+  width: 135px;
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.checkbox {
+}
+
+.checkboxRetail {
+  /* float: left; */
+  clear: left;
+  display: inline-block;
+}
+
+.label-top-right {
+  /*    float: left;*/
+  clear: left;
+  /*    width: 135px;*/
+  margin: 5px 0;
+}
+
+.partNdesc {
+  width: 370px;
+}
+
+.input-top-right {
+  /*    width: 135px;*/
+  margin: 5px 0;
+}
+
+.the4Divs {
+  background-color: beige;
+  margin: 15px 15px;
+}
+
+.label-bottom-left {
+  float: left;
+  clear: left;
+  width: 135px;
+  margin: 5px 0;
+}
+
+.input-bottom-left {
+  /*    width: 135px;*/
+  margin: 5px 0;
+}
+
+.label-bottom-right {
+  float: left;
+  clear: left;
+  width: 165px;
+  margin: 5px 0;
+}
+
+.input-bottom-right {
+  margin: 5px 0;
+}
+
+.theOutputs {
+  width: 255px;
+  background-color: #fff;
+  border: 1px solid #777;
+  text-align: right;
+  /* padding-right: 114px; */
+  /* margin: 5px 10px; */
+  float: right;
+  height: 22px;
+}
+
+.buttonDiv1 {
+  margin-left: 10px;
+  background-color: lavender;
+  /*    width: 1000px;*/
+}
+
+.buttonDiv2 {
+  float: right;
+  /*    */
+}
+
+.btns {
+  font-size: 15px;
+  text-align: center;
+  width: 100px;
+  border: 1px solid #333;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 20px 25px;
+}
+
+.btns:hover {
+  background-color: bisque;
+}
+
+#btn-exit {
+  float: right;
+  margin-right: 10px;
+}
+
+#output-fieldset {
+  /* height: 220px; */
+}
+
+#partordered-fieldset {
+  padding-bottom: 18px;
+}
+
+#customer-fieldset {
+  grid-column: 1;
+  grid-row: 1/2;
+  padding-bottom: 19px;
+}
+
+#shipping-fieldset {
+  grid-column: 2;
+  grid-row: 1/2;
+  /* height: 170px; */
+}
+
+#shipping-fieldset li {
+  width: 200px;
+  margin-bottom: 2em;
+}
+
+.warningMessage {
+  /* margin-left: 136px; */
+}

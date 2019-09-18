@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Toyota App</title>
+    <link rel="stylesheet" href="toyotasam.css" />
+  </head>
+  <body>
+    <form id="main-form">
+      <!---action="userposts" method="POST"-->
+      <div class="parent">
+          <div id="main-title"><h1>TOYOTA MAIL ORDER APPLICATION</h1></div>
+        <div class="container">
+          
+          <div class="top-left the4Divs">
+            <fieldset id="customer-fieldset">
+              <legend>Customer Information</legend>
+              <ul>
+                <li>
+                  <label for="" class="label-top-left">Customer ID:</label>
+                </li>
+                <li>
+                  <input id="customerId" type="text" class="input-top-left" />
+                </li>
+                <li style="margin-left: 136px;">
+                  <small class="warningMessage"></small>
+                </li>
+
+                <li><label for="" class="label-top-left">Name:</label></li>
+                <li>
+                  <input
+                    id="customerName"
+                    type="text"
+                    class="input-top-left"
+                    style="width:370px;"
+                  />
+                </li>
+                <li style="margin-left: 136px;">
+                  <small class="warningMessage"></small>
+                </li>
+
+                <li><label for="" class="label-top-left">State:</label></li>
+                <li style="display: inline-block;">
+                  <!--                        <input type="text" class="input-top-left" style="width:50px;"">-->
+                  <select
+                    id="townCode"
+                    class="input-top-left"
+                    style="width:60px;"
+                  >
+                    <option value="KAM" selected>KAM</option>
+                    <option value="EBB">EBB</option>
+                    <option value="MBR">MBR</option>
+                    <option value="OTH">OTHER</option>
+                  </select>
+                  <small class="warningMessage"></small>
+                </li>
+
+                <li style="display: inline-block; margin-left: 130px;">
+                  <input id="retailId" type="checkbox" class="checkbox" />
+                  <label for="" class="checkboxRetail">Retail Customer</label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+
+          <div class="top-right the4Divs">
+            <fieldset id="shipping-fieldset">
+              <legend>Shipping</legend>
+              <div style="float:left;">
+                <li>
+                  <input
+                    type="radio"
+                    name="ship"
+                    class="shippingWays"
+                    id="UPS"
+                    value="UPS"
+                  />
+                  <label for="" class="label-top-right">UPS</label>
+                </li>
+                <!-- <li></li> -->
+
+                <li>
+                  <input
+                    type="radio"
+                    name="ship"
+                    class="shippingWays"
+                    id="FEDEX_GROUND"
+                    value="Fed EX Ground"
+                  />
+                  <label for="" class="label-top-right">Fed Ex Ground</label>
+                </li>
+                <li></li>
+              </div>
+
+              <div style="float:left">
+                <li>
+                  <input
+                    type="radio"
+                    name="ship"
+                    class="shippingWays"
+                    id="USPOSTAL"
+                    value="US Postal Air"
+                  />
+                  <label for="" class="label-top-right">US Postal air</label>
+                </li>
+
+                <li>
+                  <input
+                    type="radio"
+                    name="ship"
+                    class="shippingWays"
+                    id="FEDEX_AIR"
+                    value="Fed Ex Ground Air"
+                  />
+                </li>
+                <li>
+                  <label for="" class="label-top-right">Fed Ex Air</label>
+                </li>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="bottom-left the4Divs">
+            <fieldset id="partordered-fieldset">
+              <legend>Part Ordered</legend>
+              <li>
+                <label for="" class="label-bottom-left">Part Number:</label>
+              </li>
+              <li>
+                <input id="partNumber" type="text" class="input-bottom-left partNdesc" />
+              </li>
+              <small class="warningMessage"></small>
+
+              <li>
+                <label for="" class="label-bottom-left">Description:</label>
+              </li>
+              <li>
+                <input id="description" type="text" class="input-bottom-left partNdesc" />
+              </li>
+              <small class="warningMessage"></small>
+
+              <ul>
+              <li>
+                <label for="" class="label-bottom-left">Price per part:</label></li>
+                <li style="display: inline-block;">
+                  <input style="width: 50px;"
+                  id="pricePerPart"
+                  type="text"
+                  class="input-bottom-left"
+                />
+                </li>
+
+                <li style="display: inline-block; margin-left: 185px;"><label for="" class="">Quantity:</label>             
+                <input style="width: 50px;" id="quantity" type="text" class="input-bottom-left" />
+              </li>
+              </ul>
+              <small class="warningMessage"></small>
+              </li>
+              <small class="warningMessage"></small>
+
+              
+
+              <li style="margin-left: 135px;">
+                <input
+                  id="oversize"
+                  type="checkbox"
+                  class="input-bottom-left checkbox"
+                />
+                <label for="" class="">Oversize Container?:</label>
+              </li>
+            </fieldset>
+          </div>
+
+          <div class="bottom-right the4Divs">
+            <fieldset id="output-fieldset">
+              <legend>Output</legend>
+              <li><label for="" class="label-bottom-right">Cost:</label></li>
+              <div class="">
+                <li><label id="cost" class="theOutputs"></label></li>
+              </div>
+              <!--                <input type="text" class="input-bottom-right">-->
+
+              <li>
+                <label for="" class="label-bottom-right">Sales Tax:</label>
+              </li>
+              <div class="">
+                <li><label id="salesTax" class="theOutputs"></label></li>
+              </div>
+              <!--                <li><input type="text" class="input-bottom-right"></li>-->
+
+              <li>
+                <label for="" class="label-bottom-right"
+                  >Shpping & Handling:</label
+                >
+              </li>
+              <div class="">
+                <li><label id="shipping" class="theOutputs"></label></li>
+              </div>
+              <!--                <li><input type="text" class="input-bottom-right"></li>-->
+
+              <li><label for="" class="label-bottom-right">Total:</label></li>
+              <div class="">
+                <li><label id="total" class="theOutputs"></label></li>
+              </div>
+              <!--                <li><input type="text" class="input-bottom-right"></li>-->
+            </fieldset>
+          </div>
+
+          <div class="buttonDiv1">
+            <input type="submit" class="btns" value="Compute" id="compute" />
+            <input
+              type="button"
+              id="new-order"
+              type="submit"
+              class="btns"
+              value="New Order"
+            />
+          </div>
+          <div class="buttonDiv2">
+            <input type="button" id="btn-exit" class="btns" value="Exit" />
+          </div>
+        </div>
+      </div>
+    </form>
+    <!-- <script src="toyotasam.js"></script> -->
+    <script type="module" src="bundle.js"></script>
+  </body>
+</html>
